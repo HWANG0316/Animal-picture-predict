@@ -1,0 +1,43 @@
+   @font-face
+   {
+      font-family: "My Font";
+      src : url("./GodoM.ttf");
+   }
+
+   @font-face
+   {
+      font-family:"My Font2";
+      src : url("./GodoB.ttf");
+
+   }
+   head
+   {position :relative;}
+
+   body
+   {
+      background-image:url('background.png');
+      background-repeat:no-repeat;
+      background-size :  1540px 720px;
+      position:absolute;
+   }
+
+   input{
+
+   }
+   h3{ position : relative;
+       bottom : 25px;  
+       font-size: 25pt;
+       font-family : "My Font", serif;
+       color : brown; 
+       text-align:center;
+       left:520px;
+      }
+   h2{position : relative; bottom : 330px; left:90px; font-family:"My Font2";color: #000000; }
+   h1{ position :relative; left:520px; bottom : 60px; color : white; text-align:center;  font-size : 82px; font-family : "My Font";}
+   #hint{ position : relative; left: 500px;bottom:85px; visibility:hidden; color:black; text-align:center;}
+   .table1{position: relative; left:1200px; bottom:220px; font-family:"My Font2"; font-size : 25px;}
+   #goal{position:relative;  color:brown;}   
+   #now{position:relative; color:brown;}
+   .buttons{ position : relative; left:1300px; bottom: 200px; border :0px;  outline:none; width:45px; height:45px; background-color: #FFFFFF;}
+   #myCanvas{position:absolute; left:100px; top:200px; bottom:200px; border:thick dotted orange;"}
+   #result_mess{ background-color:#E9D4FF; text-align:center; padding:14px;}
